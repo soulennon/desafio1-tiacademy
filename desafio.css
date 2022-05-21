@@ -1,0 +1,160 @@
+*{
+    font-family: helvetica;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    top: 0;
+    width: 100%;
+    background-color: #212121;
+    position: fixed;
+    border: none;
+    height: 60px;
+    display: flex;
+    }
+
+#logo{
+    padding-left: 15%;
+    width: 20%;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.conteudotop{
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: #F9A825;
+    border-radius: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.sred:hover{
+    background-color: red;
+    width: auto;
+    height: auto;
+    padding: 18px;
+}
+
+li{
+    background-color: #212121;
+    width: 120px;
+    height: 60px;
+    color:#fff;
+    margin-right: 10px;
+    margin-left: 10px;
+    left: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    margin-left: 30%;
+    list-style: none;
+    display: flex;
+    width: auto;
+}
+
+main{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin-top: 260px;
+    display: flex;
+    flex-direction: row;
+}
+
+#boxcentro{
+    margin-left: 35%;
+    padding:0;
+    width: 250px;
+    height: 190px;
+    background-color: #EEEEEE;
+    box-sizing: border-box;
+}
+
+p{
+    padding:0;
+    margin: 10px;
+    margin-top: 5px;
+}
+
+#forms{
+    width: auto;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: -50px;
+    border-left: 3px dashed #000;
+
+}
+
+#email{
+    width: auto;
+    height:auto;
+    color: #616161;
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+form{
+    width: 250px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding:10px;
+    margin-top: 15px;
+}
+
+footer{
+    width: 100%;
+    background-color: #212121;
+    position: fixed;
+    border: none;
+    height: 100px;
+    bottom: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fill{
+    background-color: #FAFAFA;
+    outline: none;
+}
+
+.send{
+    margin-top: 5px;
+    padding: 5px;
+    width: 80px;
+    height: auto;
+    border-radius: 50px;
+    border: none;
+    background-color: #F9A825;
+    margin-left: 80px;
+}
